@@ -1,0 +1,297 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/09/2022, 10:11:24
+    Author     : EQUIPO
+*/
+body {
+    background-image: url(VISTA/IMG/fondo.JPG) ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal{
+    margin: auto;
+    margin-top: 60px;
+    width:400px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+
+    color: black; 
+    opacity: 0.9;
+    padding-top:  0px;
+    text-align: center;
+    border-radius: 200px;
+}
+
+.botoninicio{
+    margin: auto;
+    background:url(VISTA/IMG/iniciarsistema.JPG);
+    background-size: cover;
+    width:400px;
+    height: 400px;
+    opacity: 0.8;
+    border-radius: 200px;  
+}
+.parrafo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: black; 
+    opacity: 0.9;
+    padding-top:  0px;
+    
+}
+
+
+
+.container1{
+    margin: 0;
+    top: 50px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    background-color: #DCD4D3;
+    border-radius: 9px;
+
+    width: 400px;
+    height: 500px;
+
+}
+
+.box h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5c6bc0;
+    font-size: 25px;
+    margin-top:94px;
+    ;
+}
+
+.box h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #a1a4ad;
+    letter-spacing: 1.5px;
+    margin-top: -15px;
+    margin-bottom: 70px;
+}
+
+.box input[type = "text"],.box input[type = "password"] {
+    display: block;
+    margin: 20px auto;
+    background: #C0BCBB;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: black;
+
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus {
+    border: 1px solid #79A6FE;
+
+}
+
+a{
+    color: #5c7fda;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn1 {
+    border:0;
+    background: #9B727E;
+    color: #dfdeee;
+    border-radius: 100px;
+    width: 340px;
+    height: 49px;
+    font-size: 16px;
+    position: absolute;
+    top: 82%;
+    left: 8%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background: #875967;
+}
+
+.btn2 {
+    border:0;
+    background: #9B727E;
+    color: #dfdeee;
+    border-radius: 100px;
+    width: 340px;
+    height: 49px;
+    font-size: 16px;
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background: #875967;
+}
+
+.dnthave{
+    position: absolute;
+    top: 95%;
+    left: 20%;
+}
+
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 550px;
+    width: 100%;
+    color: #78797d;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer .fa {
+    color: #7f5feb;
+    ;
+}
+
+/*estilo boton*/
+
+.boton input{
+    color: black;
+    font-size: 20px;
+    padding: 10px 50px;
+    background: #DCD4D3;
+    border: 3px ridge #F2DAD8;
+    border-radius: 0px 20px 0px 20px;
+    margin: 60px;
+}
+
+.centrarBt {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*login*/
+.estilpciones{
+    width: 240px;
+    height: 34px;
+    overflow: hidden;
+    background: no-repeat right #ddd;
+    border: 1px solid #ccc;
+}
+.mensaje{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #5c6bc0;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*Encabezado estatico*/
+
+.contenidonav{
+    position: fixed;
+
+}
+
+/*Titulo*/
+.slogan {
+width: 100%;
+    text-align: center;
+    padding: 0.125em;
+    font-size: 2em;
+    
+    line-height: 1; 
+    border-radius: 0.125em 0.125em 0 0;
+   
+}
+
+.distanciatop{
+    padding-top: 150px;
+}
+
+/*Tablas datos*/
+
+.table{
+    margin-top: 5px;
+    border: 0.5px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-collapse: collapse;
+}
+
+.divtabla{
+    width: 100%;
+    height: 250px;
+
+}
+
+
+/*Botones*/
+
+.table1{
+    align-content: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: auto;
+
+}
+.table2{
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: auto;
+
+}
+.td{
+    border: 1px solid white;
+    height: 40px;
+}
+td,th {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+
+}
+
+.botoncrud{
+    background: #DCD4D3;
+    border-color: white;
+    width:  120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cedula{
+    width:  125px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.divtabla1{
+    width: 100%;
+    height: 350px;
+
+}
